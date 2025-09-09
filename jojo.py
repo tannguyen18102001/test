@@ -25,10 +25,5 @@ print(f'Số lượng quân cờ màu đen: {count_pieces(board, BLACK)}')
 # Định nghĩa hàm kiểm tra xem có thể đặt quân cờ màu color tại vị trí (row, col) không
 def can_place_piece(board, color, row, col):
   # Kiểm tra xem vị trí (row, col) có hợp lệ không
-  if row < 0 or row >= BOARD_SIZE or col < 0 or col >= BOARD_SIZE:
-    return False
-  # Kiểm tra xem ô (row, col) có để trống không
-  if board[row][col] != 0:
-    return False
-
+  
 
