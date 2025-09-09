@@ -30,8 +30,5 @@ def can_place_piece(board, color, row, col):
   # Kiểm tra xem ô (row, col) có để trống không
   if board[row][col] != 0:
     return False
-  # Kiểm tra xem có thể đặt quân cờ tại vị trí (row, col) không
-  # (điều này có thể được thực hiện bằng cách duyệt các hướng từ vị trí (row, col)
-  # và kiểm tra xem có quân
 
 
