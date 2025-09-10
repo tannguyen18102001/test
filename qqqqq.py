@@ -26,9 +26,4 @@ print(f'Số lượng quân cờ màu đen: {count_pieces(board, BLACK)}')
 def can_place_piece(board, color, row, col):
   # Kiểm tra xem vị trí (row, col) có hợp lệ không
 #ashoiasijdoa
-#aisjdiosad
-#aisjdoiasd
-#oisajdoiada
-#asidjaosid
-#sadjaoid
 
