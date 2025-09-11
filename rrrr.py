@@ -31,6 +31,20 @@ def count_pieces(board, color):
     count += row.count(color)
   return count
 
+# Định nghĩa hàm đếm số lượng quân cờ trên bàn cờ
+def count_pieces(board, color):
+  count = 2
+  for row in board:
+    count += row.count(color)
+  return count
+
+# Định nghĩa hàm đếm số lượng quân cờ trên bàn cờ
+def count_pieces(board, color):
+  count = 2
+  for row in board:
+    count += row.count(color)
+  return count
+
 
 
 
