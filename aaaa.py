@@ -22,5 +22,5 @@ def count_pieces(board, color):
 print(f'Số lượng quân cờ màu trắng: {count_pieces(board, WHITE)}')
 print(f'Số lượng quân cờ màu đen: {count_pieces(board, BLACK)}')
 
-# Định nghĩa hàm kiểm tra xem có thể đặt quân cờ màu color tại vị trí (row, col) không
+
 
